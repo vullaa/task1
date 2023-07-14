@@ -1,0 +1,33 @@
+.new {
+    background-color: #01C853;
+    border-radius: 5px;
+    width: 60px;
+    display: flex;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+
+
+  .fix{
+    background-color: #2962FF;
+    border-radius: 5px;
+    width: 60px;
+    display: flex;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+
+  .improv{
+    background-color: #C35BFF;
+    border-radius: 5px;
+    width: 110px;
+    display: flex;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }

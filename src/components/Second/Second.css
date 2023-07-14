@@ -1,0 +1,115 @@
+.app {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 3;
+  width: 100%;
+}
+
+.card {
+  border-radius: 20px;
+  margin: 5%;
+  border: 1px solid #e9e9e9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 23%;
+  height: 400px;
+  flex-basis: 3 rows;
+}
+
+.version {
+  margin: 5%;
+}
+
+
+.part1 {
+  margin: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:5%;
+  width: 50%;
+}
+
+.icon1 {
+  border: 1px solid #cccccc;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.description {
+  margin: 5%;
+  height: 120px;
+  width: 95%;
+  color: #CDCDCD;
+}
+
+.button {
+  font-size: 1rem;
+  margin: 5%;
+  border-radius: 40px;
+  color: #2962FF;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #2962FF;
+  width: 50%;
+  height: 40px;
+}
+
+.button:hover{
+  background-color: #2962FF;
+  border: #fff;
+  color: #fff;
+  cursor: pointer;  
+}
+
+.person:hover{
+  cursor: pointer;
+}
+
+
+@media (max-width: 1100px) {
+  .app {
+    width: 100%;
+  }
+
+  .card{
+    width: 30%;
+  }
+
+  .button{
+    margin:5% 0 0 5%;
+  }
+}
+
+@media (max-width: 800px) {
+  .app {
+    width: 100%;
+  }
+
+  .card{
+    width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .app {
+    width: 100%;
+  }
+
+  .card{
+    width: 70%;
+  }
+}
